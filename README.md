@@ -8,9 +8,9 @@
 
 ## Deliverables
 
-* Assignment5.py
-* Assignment5_Code.pdf
-* Assignment5_Report.pdf
+* Taylor_Ropiequet_Final - XCode Folder
+* CPSC357 Final - Presentation
+* appdemo - video demo
 * README.md
 
 ## Simulator
