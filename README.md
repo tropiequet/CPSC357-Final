@@ -9,8 +9,8 @@
 ## Deliverables
 
 * Taylor_Ropiequet_Final - XCode Folder
-* CPSC357 Final - Presentation
-* appdemo - video demo
+* CPSC357 Final.pptx - Presentation
+* appdemo.mov - video demo
 * README.md
 
 ## Simulator
