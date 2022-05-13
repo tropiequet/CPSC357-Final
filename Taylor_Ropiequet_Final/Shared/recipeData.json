@@ -1,0 +1,43 @@
+[
+    {
+        "id": "001",
+        "name": "Pancakes",
+        "ingredients": ["1.5 cups flour", "3.5 tsp baking powder", "1 tbs sugar", "1 egg", "1.25 cups milk", "3 tbs butter"],
+        "instructions": ["Mix together all ingredients", "Pour 1/4 cup batter onto griddle", "Brown on both sides"],
+        "category": "Breakfast",
+        "imageName": "Breakfast"
+    },
+    {
+        "id": "002",
+        "name": "Recipe 2",
+        "ingredients": ["ingredient1", "ingredient2"],
+        "instructions": ["instruction1", "instruction2"],
+        "category": "Lunch",
+        "imageName": "Lunch"
+    },
+    {
+        "id": "003",
+        "name": "Recipe 3",
+        "ingredients": ["ingredient1", "ingredient2"],
+        "instructions": ["instruction1", "instruction2"],
+        "category": "Dinner",
+        "imageName": "Dinner"
+    },
+    {
+        "id": "004",
+        "name": "Recipe 4",
+        "ingredients": ["ingredient1", "ingredient2"],
+        "instructions": ["instruction1", "instruction2"],
+        "category": "Dessert",
+        "imageName": "Dessert"
+    },
+    {
+        "id": "005",
+        "name": "Recipe 5",
+        "ingredients": ["ingredient1", "ingredient2"],
+        "instructions": ["instruction1", "instruction2"],
+        "category": "",
+        "imageName": "recipe"
+    }
+]
+

@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C41743B5281B155D0043D809 /* Taylor_Ropiequet_FinalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41743A5281B155B0043D809 /* Taylor_Ropiequet_FinalApp.swift */; };
+		C41743B6281B155D0043D809 /* Taylor_Ropiequet_FinalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41743A5281B155B0043D809 /* Taylor_Ropiequet_FinalApp.swift */; };
+		C41743B7281B155D0043D809 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41743A6281B155B0043D809 /* ContentView.swift */; };
+		C41743B8281B155D0043D809 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41743A6281B155B0043D809 /* ContentView.swift */; };
+		C41743B9281B155D0043D809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41743A7281B155D0043D809 /* Assets.xcassets */; };
+		C41743BA281B155D0043D809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41743A7281B155D0043D809 /* Assets.xcassets */; };
+		C41743C4281B15BD0043D809 /* AddNewRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41743C3281B15BD0043D809 /* AddNewRecipe.swift */; };
+		C41743C5281B15BD0043D809 /* AddNewRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41743C3281B15BD0043D809 /* AddNewRecipe.swift */; };
+		C41743D0281B176D0043D809 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41743CF281B176D0043D809 /* Recipe.swift */; };
+		C41743D1281B176D0043D809 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41743CF281B176D0043D809 /* Recipe.swift */; };
+		C41743D3281B17E10043D809 /* RecipeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41743D2281B17E10043D809 /* RecipeStore.swift */; };
+		C41743D4281B17E10043D809 /* RecipeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41743D2281B17E10043D809 /* RecipeStore.swift */; };
+		C41743D6281B187F0043D809 /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41743D5281B187F0043D809 /* RecipeData.swift */; };
+		C41743D7281B187F0043D809 /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41743D5281B187F0043D809 /* RecipeData.swift */; };
+		C41743DA281B1A260043D809 /* RecipeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41743D9281B1A260043D809 /* RecipeDetail.swift */; };
+		C41743DB281B1A260043D809 /* RecipeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41743D9281B1A260043D809 /* RecipeDetail.swift */; };
+		C41D8BB5281F8E580002E7FA /* recipeData.json in Resources */ = {isa = PBXBuildFile; fileRef = C41743D8281B19020043D809 /* recipeData.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C41743A5281B155B0043D809 /* Taylor_Ropiequet_FinalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taylor_Ropiequet_FinalApp.swift; sourceTree = "<group>"; };
+		C41743A6281B155B0043D809 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C41743A7281B155D0043D809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C41743AC281B155D0043D809 /* Taylor_Ropiequet_Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taylor_Ropiequet_Final.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41743B2281B155D0043D809 /* Taylor_Ropiequet_Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taylor_Ropiequet_Final.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41743B4281B155D0043D809 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C41743C3281B15BD0043D809 /* AddNewRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRecipe.swift; sourceTree = "<group>"; };
+		C41743CF281B176D0043D809 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		C41743D2281B17E10043D809 /* RecipeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeStore.swift; sourceTree = "<group>"; };
+		C41743D5281B187F0043D809 /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
+		C41743D8281B19020043D809 /* recipeData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipeData.json; sourceTree = "<group>"; };
+		C41743D9281B1A260043D809 /* RecipeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C41743A9281B155D0043D809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41743AF281B155D0043D809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C417439F281B155A0043D809 = {
+			isa = PBXGroup;
+			children = (
+				C41743CF281B176D0043D809 /* Recipe.swift */,
+				C41743D5281B187F0043D809 /* RecipeData.swift */,
+				C41743D2281B17E10043D809 /* RecipeStore.swift */,
+				C41743A4281B155A0043D809 /* Shared */,
+				C41743B3281B155D0043D809 /* macOS */,
+				C41743AD281B155D0043D809 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C41743A4281B155A0043D809 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C41743D8281B19020043D809 /* recipeData.json */,
+				C41743A5281B155B0043D809 /* Taylor_Ropiequet_FinalApp.swift */,
+				C41743A6281B155B0043D809 /* ContentView.swift */,
+				C41743D9281B1A260043D809 /* RecipeDetail.swift */,
+				C41743C3281B15BD0043D809 /* AddNewRecipe.swift */,
+				C41743A7281B155D0043D809 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C41743AD281B155D0043D809 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C41743AC281B155D0043D809 /* Taylor_Ropiequet_Final.app */,
+				C41743B2281B155D0043D809 /* Taylor_Ropiequet_Final.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C41743B3281B155D0043D809 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C41743B4281B155D0043D809 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C41743AB281B155D0043D809 /* Taylor_Ropiequet_Final (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41743BD281B155D0043D809 /* Build configuration list for PBXNativeTarget "Taylor_Ropiequet_Final (iOS)" */;
+			buildPhases = (
+				C41743A8281B155D0043D809 /* Sources */,
+				C41743A9281B155D0043D809 /* Frameworks */,
+				C41743AA281B155D0043D809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Taylor_Ropiequet_Final (iOS)";
+			productName = "Taylor_Ropiequet_Final (iOS)";
+			productReference = C41743AC281B155D0043D809 /* Taylor_Ropiequet_Final.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C41743B1281B155D0043D809 /* Taylor_Ropiequet_Final (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41743C0281B155D0043D809 /* Build configuration list for PBXNativeTarget "Taylor_Ropiequet_Final (macOS)" */;
+			buildPhases = (
+				C41743AE281B155D0043D809 /* Sources */,
+				C41743AF281B155D0043D809 /* Frameworks */,
+				C41743B0281B155D0043D809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Taylor_Ropiequet_Final (macOS)";
+			productName = "Taylor_Ropiequet_Final (macOS)";
+			productReference = C41743B2281B155D0043D809 /* Taylor_Ropiequet_Final.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C41743A0281B155A0043D809 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C41743AB281B155D0043D809 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					C41743B1281B155D0043D809 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = C41743A3281B155A0043D809 /* Build configuration list for PBXProject "Taylor_Ropiequet_Final" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C417439F281B155A0043D809;
+			productRefGroup = C41743AD281B155D0043D809 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C41743AB281B155D0043D809 /* Taylor_Ropiequet_Final (iOS) */,
+				C41743B1281B155D0043D809 /* Taylor_Ropiequet_Final (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C41743AA281B155D0043D809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41743B9281B155D0043D809 /* Assets.xcassets in Resources */,
+				C41D8BB5281F8E580002E7FA /* recipeData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41743B0281B155D0043D809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41743BA281B155D0043D809 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C41743A8281B155D0043D809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41743DA281B1A260043D809 /* RecipeDetail.swift in Sources */,
+				C41743B7281B155D0043D809 /* ContentView.swift in Sources */,
+				C41743D0281B176D0043D809 /* Recipe.swift in Sources */,
+				C41743D3281B17E10043D809 /* RecipeStore.swift in Sources */,
+				C41743D6281B187F0043D809 /* RecipeData.swift in Sources */,
+				C41743B5281B155D0043D809 /* Taylor_Ropiequet_FinalApp.swift in Sources */,
+				C41743C4281B15BD0043D809 /* AddNewRecipe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41743AE281B155D0043D809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41743DB281B1A260043D809 /* RecipeDetail.swift in Sources */,
+				C41743B8281B155D0043D809 /* ContentView.swift in Sources */,
+				C41743D1281B176D0043D809 /* Recipe.swift in Sources */,
+				C41743D4281B17E10043D809 /* RecipeStore.swift in Sources */,
+				C41743D7281B187F0043D809 /* RecipeData.swift in Sources */,
+				C41743B6281B155D0043D809 /* Taylor_Ropiequet_FinalApp.swift in Sources */,
+				C41743C5281B15BD0043D809 /* AddNewRecipe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C41743BB281B155D0043D809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C41743BC281B155D0043D809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C41743BE281B155D0043D809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KB2NKGPJVB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Chapman.Taylor-Ropiequet-Final";
+				PRODUCT_NAME = Taylor_Ropiequet_Final;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C41743BF281B155D0043D809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KB2NKGPJVB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Chapman.Taylor-Ropiequet-Final";
+				PRODUCT_NAME = Taylor_Ropiequet_Final;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C41743C1281B155D0043D809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KB2NKGPJVB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Chapman.Taylor-Ropiequet-Final";
+				PRODUCT_NAME = Taylor_Ropiequet_Final;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C41743C2281B155D0043D809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KB2NKGPJVB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Chapman.Taylor-Ropiequet-Final";
+				PRODUCT_NAME = Taylor_Ropiequet_Final;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C41743A3281B155A0043D809 /* Build configuration list for PBXProject "Taylor_Ropiequet_Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41743BB281B155D0043D809 /* Debug */,
+				C41743BC281B155D0043D809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C41743BD281B155D0043D809 /* Build configuration list for PBXNativeTarget "Taylor_Ropiequet_Final (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41743BE281B155D0043D809 /* Debug */,
+				C41743BF281B155D0043D809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C41743C0281B155D0043D809 /* Build configuration list for PBXNativeTarget "Taylor_Ropiequet_Final (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41743C1281B155D0043D809 /* Debug */,
+				C41743C2281B155D0043D809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C41743A0281B155A0043D809 /* Project object */;
+}
